@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    border-top: 7px solid  rgb(101, 248, 248) ; 
+}
+h1{
+    color: rgb(101, 248, 248);
+    margin: 10px;
+   
+  
+}
+h2{
+    color: rgb(86, 48, 1);
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h3{
+    text-align: center;
+    font-style:italic;
+}
+li{
+    line-height: 1.5;
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 30px;
+}
+a{
+    list-style: none;
+    
+}
+header{
+    background-color: rgb(247, 241, 234);
+    margin-left: 120px;
+    margin-right: 230px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+aside{
+    border-bottom: 5px seagreen solid;
+    border-top: 5px seagreen solid;
+    background-color: rgb(247, 248, 248);
+    width: 320px;
+   
+    margin-right: 80px;
+    float: right;
+    padding: 20px;
+    margin-bottom: 80px;
+
+    
+}
+.article{
+    float: left;
+    width: 800px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: rgb(101, 248, 248);
+    
+}
+a:hover{
+    color: rgb(223, 149, 149);
+    font-style: oblique;
+    text-decoration: underline;
+}
+a:active{
+    background-color: rgb(107, 107, 254);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav a:link{
+    margin-right: 20px;
+    padding-top: px;
+    
+}
+p{
+    margin: 10px;
+    line-height: 25px;
+}
+img{
+    padding: 10px;
+}
+footer{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    clear: both;
+}
+h1::first-letter{
+    font-style: oblique;
+    font-size: 60px;
+
+}
+.auth-img{
+    float: left;
+}
+.car-img{
+    margin-top: 70px;
+    margin-left: -460px;
+    
+    
+}
+.auth{
+    padding-left: 10px;
+    float: left;
+
+}
+h1{
+    float: left;
+}
+nav{
+    float: right;
+   
+   
+}
+
+.clearfix::after{
+    clear:both;
+    content:'';
+    display:block;
+}
+/*flex box*/
+.clearfix{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.RELATED{
+    
+    display :flex;
+  
+    align-items:center;
+    
+
+}
+.related-post{
+    font-size: 15px;
+    font-weight:normal;
+    margin: 0;
+    align-self: center;
+   
+}
